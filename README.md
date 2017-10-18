@@ -17,7 +17,7 @@ The following algorithms are implemented:
 * Relaxation as a linear problem with hinge loss (`cvx_relax`, see [Convex optimization](https://www.amazon.com/Convex-Optimization-Stephen-Boyd/dp/0521833787))
 * Greedy-order (simplest possible heuristic) (`greedy_order`, see [Learning to order things](http://papers.nips.cc/paper/1431-learning-to-order-things.pdf))
 * Local search swapping 2 items, guided by:
-	* Random choices if they end up improve it (`random_swaps`)
+	* Random choices if they end up improving it (`random_swaps`)
 	* Min-conflict (`minconflict`)
 	* Metropolis-Hastings (`metropolis_hastings`)
 
@@ -28,6 +28,7 @@ All the implementation is in Python, so running times are not stellar.
 ## Installation
 
 Package is available on PyPi, can be installed with
+
 ```pip install pwlistorder```
 
 ## Usage
