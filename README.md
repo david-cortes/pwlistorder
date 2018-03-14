@@ -38,7 +38,7 @@ The basic data structure used by this package is a dictionary with aggregated pr
 For an applied example using simulated data see [this IPython notebook](http://nbviewer.ipython.org/github/david-cortes/pwlistorder/blob/master/example/pwlistorder_example.ipynb)
 
 Example usage
-```
+```python
 from pwlistorder import agg_preferences, eval_ordering, minconflict, pagerank
 
 # items to order
@@ -67,7 +67,7 @@ print(eval_ordering(ordering_pagerank, dct_prefs))
 print(ordering_minconflict)
 print(ordering_pagerank)
 ```
-All functions are documented internally through docstrings (e.g. you can try `? pagerank` to see which parameters it takes). The package has only been tested under Python 3.
+All functions are documented internally through docstrings (e.g. you can try `help(pagerank)` to see which parameters it takes). The package has only been tested under Python 3.
 
 ## References
 * Ailon, N., Charikar, M., & Newman, A. (2008). Aggregating inconsistent information: ranking and clustering. Journal of the ACM (JACM), 55(5), 23.
