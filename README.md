@@ -1,4 +1,4 @@
-# pwlistorder
+# Ordered lists from pairwise preferences
 
 This is a python package with implementations of algorithms for ordering/ranking a list of items based on aggregated pairwise preferences, in order to solve problems such as “given a set of different Top-N lists of musical artists from different people, construct an overall ranking of musical artists” (note that any ranked list can be decomposed into pairwise preferences).
 
